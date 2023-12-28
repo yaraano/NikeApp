@@ -1,0 +1,69 @@
+.hero {
+  margin-top: 40px;
+}
+.hero-ul {
+  display: flex;
+  gap: 30px;
+}
+.hero-ul li {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.hero-text {
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+.hero-text h1 {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 20px;
+  align-items: center;
+}
+.hero-text h1 img {
+  height: 100%;
+  object-fit: contain;
+}
+.hero-text h1 span {
+  color: #000;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 25px;
+  text-transform: uppercase;
+}
+.hero-message {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-message h2 {
+  width: 557px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  padding-bottom: 24px;
+}
+.hero-message-blue {
+  color: blue;
+}
+.hero-message-red {
+  color: red;
+}
+.hero-img {
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.hero-img img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=HeroSection.css.map */

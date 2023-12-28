@@ -1,0 +1,78 @@
+.hero {
+  margin-top: 40px;
+
+  &-ul {
+    display: flex;
+    gap: 30px;
+
+    li {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+
+  &-text {
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+
+    h1 {
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 20px;
+      align-items: center;
+
+      img {
+        height: 100%;
+        object-fit: contain;
+      }
+
+      span {
+        color: #000;
+        font-size: 130px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 25px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &-message {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+
+    h2 {
+      width: 557px;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2.1px;
+      text-transform: uppercase;
+      border-bottom: 3px solid black;
+      padding-bottom: 24px;
+    }
+
+    &-blue {
+      color: blue;
+    }
+
+    &-red {
+      color: red;
+    }
+  }
+
+  &-img{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    img {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
